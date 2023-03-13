@@ -24,3 +24,6 @@ jobs:
       
       - name: list folder
         run: ls -la
+        
+      - name: fail
+        run: exit 1
